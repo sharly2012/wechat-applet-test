@@ -1,0 +1,13 @@
+##ignore this file##
+*.pyc
+*.log
+/logs/
+/.idea/
+/.pytest_cache/
+/conf/*.ini
+/report/html/
+/report/xml/
+/screenshots/*
+!/screenshots/__init__.py
+/venv/
+!.gitkeep

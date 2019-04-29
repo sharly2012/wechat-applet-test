@@ -1,0 +1,90 @@
+- device_name: huawei_P20
+  host: 127.0.0.1
+  port: 4723
+  desired_caps:
+    platformName: Android
+    platformVersion: 8.1.0
+    deviceName: CLB0219116000104
+    appPackage: com.tencent.mm
+    appActivity: .ui.LauncherUI
+    udid: CLB0219116000104
+    unicodeKeyboard: True
+    resetKeyboard: True
+    newCommandTimeout: 30
+    noReset: True
+    chromeOptions:
+      androidProcess: com.tencent.mm:appbrand0
+
+- device_name: xiaomi_5
+  host: 127.0.0.1
+  port: 4725
+  desired_caps:
+    platformName: Android
+    platformVersion: 8.0.0
+    deviceName: b7556c74
+    appPackage: com.tencent.mm
+    appActivity: .ui.LauncherUI
+    udid: b7556c74
+    unicodeKeyboard: True
+    resetKeyboard: True
+    newCommandTimeout: 30
+    noReset: True
+    chromeOptions:
+      androidProcess: com.tencent.mm:appbrand0
+
+- device_name: OPPO_R15
+  host: 127.0.0.1
+  port: 4725
+  desired_caps:
+    platformName: Android
+    platformVersion: 8.1.0
+    deviceName: PZJZC6MF55NZ6TEU
+    appPackage: com.tencent.mm
+    appActivity: .ui.LauncherUI
+    udid: PZJZC6MF55NZ6TEU
+    unicodeKeyboard: True
+    resetKeyboard: True
+    newCommandTimeout: 30
+    noReset: True
+    chromeOptions:
+      androidProcess: com.tencent.mm:appbrand0
+
+- device_name: Samsung_GalaxyS9
+  host: 127.0.0.1
+  port: 4730
+  desired_caps:
+    platformName: Android
+    platformVersion: 8.0.0
+    deviceName: 192.168.25.103:5555
+    appPackage: com.tencent.mm
+    appActivity: .ui.LauncherUI
+    #    appPackage: com.elab.factory.splash
+    #    appActivity: .ui.SplashActivity
+    udid: 192.168.25.103:5555
+    unicodeKeyboard: True
+    resetKeyboard: True
+    newCommandTimeout: 30
+    noReset: True
+    chromeOptions:
+      androidProcess: com.tencent.mm:appbrand0
+
+- device_name: google_Pixel2
+  host: 127.0.0.1
+  port: 4740
+  desired_caps:
+    platformName: Android
+    platformVersion: 8.0.0
+    deviceName: 192.168.25.104:5555
+    appPackage: com.tencent.mm
+    appActivity: .ui.LauncherUI
+    #    appPackage: com.elab.factory.splash
+    #    appActivity: .ui.SplashActivity
+    udid: 192.168.25.104:5555
+    unicodeKeyboard: True
+    resetKeyboard: True
+    newCommandTimeout: 30
+    noReset: True
+    chromeOptions:
+      androidProcess: com.tencent.mm:appbrand0
+
+

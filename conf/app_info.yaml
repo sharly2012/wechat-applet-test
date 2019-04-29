@@ -1,0 +1,21 @@
+DEVICES:
+  platformName: Android
+  platformVersion: 8.0.0
+#  platformVersion: 8.1.0
+  deviceName: b7556c74
+#  deviceName: CLB0219116000104
+  browserName: chrome
+  app: E:/xxx.apk
+  appPackage: com.tencent.mm
+  appActivity: .ui.LauncherUI
+  automationName: Appium
+  unicodeKeyboard: True
+  resetKeyboard: True
+  newCommandTimeout: 30
+  noReset: True
+  chromeOptions:
+    androidProcess: com.tencent.mm:appbrand0
+
+EnvironmentInfo:
+  html_report: /Users/elabmacmini/wechat-applet-automation/report/html
+  xml_report: /Users/elabmacmini/wechat-applet-automation/report/xml
