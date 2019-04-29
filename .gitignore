@@ -6,4 +6,3 @@
 /conf/*.ini
 /screenshots/*.png
 /venv/
-!.gitkeep
