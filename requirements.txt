@@ -17,7 +17,7 @@ lxml==4.3.2
 matplotlib==3.0.3
 more-itertools==6.0.0
 namedlist==1.7
-numpy==1.16.2
+numpy==1.22.0
 opencv-python==4.0.0.21
 openpyxl==2.6.1
 Pillow==5.4.1
